@@ -1,0 +1,12 @@
+串口2发送Socket数据，波特率115200
+
+串口3 Modbus 波特率 9600
+
+CrossID 12341234
+
+统计时长60s
+
+配置文件： platform_config.h / socketconfig.h / calculationconfig.h
+
+上电通过socket配置时间
+凌晨0点开启1分钟内随机时间配置时间

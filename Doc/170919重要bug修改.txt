@@ -1,0 +1,1 @@
+由于calculationavgheadtime.c中数组越界导致全局变量被修改，bug已解决
