@@ -125,11 +125,11 @@ void Time_Adjust(struct rtc_time *tm)
 	
 	/* Get time entred by the user on the hyperterminal */
 	/* 设置默认时间 */
-	tm->tm_year	=	2017;
-	tm->tm_mon	=	7;
-	tm->tm_mday	=	26;
-	tm->tm_hour	=	14;
-	tm->tm_min	=	30;
+	tm->tm_year	=	2018;
+	tm->tm_mon	=	01;
+	tm->tm_mday	=	01;
+	tm->tm_hour	=	00;
+	tm->tm_min	=	00;
 	tm->tm_sec	=	00;
 	
 	/* Get weekday */

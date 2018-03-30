@@ -811,7 +811,7 @@ void init_param_recv_default(u32 sn, u32 crossid)
   	param_recv.handle_lost 			= 1;									//是否对丢包进行处理
   	param_recv.check_repeat_time 		= 0;									//检查数据包是否重复的时间
 	param_recv.simple_mode 			= 1;									//RT数据模式是否是简单模式
-	param_recv.software_version		= 0x0107;								//软件版本号
+	param_recv.software_version		= 0x0108;								//软件版本号
 	param_recv.hardware_version		= 0x0400;								//硬件版本号
 
 	param_wvd_cfg.addr_dev 			= 0xffff;								//检测器序列号
